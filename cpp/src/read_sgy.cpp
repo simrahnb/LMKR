@@ -11,7 +11,7 @@ int main() {
         return 1; // return with error code 
     }
 
-    // 1: Read the 3200-byte Text Header === 
+    // 1: Read the 3200-byte Text Header
     char textHeader[3200]; 
     file.read(textHeader, 3200); // read first 3200 bytes into array
 
@@ -31,7 +31,7 @@ int main() {
     std::cout << "Sample Interval (microseconds): " << sampleInterval << "\n";
     std::cout << "Samples per Trace: " << numSamples << "\n";
 
-    // === STEP 3: Close File ===
+    // 3: Close File
     file.close();
 
     return 0;

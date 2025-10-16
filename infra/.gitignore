@@ -1,0 +1,5 @@
+# LMKR/infra/.gitignore
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
